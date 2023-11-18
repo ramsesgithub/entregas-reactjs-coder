@@ -1,0 +1,34 @@
+.item{
+    display: flex;
+    padding: 8rem 15rem;
+    justify-content: center;
+    gap: 0 3rem;
+}
+
+.item--image{
+    width: 500px;
+}
+
+.item__container{
+    display: flex;
+    width: 50%;
+    gap: 1.4rem 0;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item__container--p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+}
+
+
+.item__container--btn{
+    padding: 1rem 4rem;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
