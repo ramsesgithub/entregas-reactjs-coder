@@ -1,0 +1,41 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 12vh;
+    background-color: #000000;
+}
+
+.navbar__container{
+    padding: 0 0 0 1rem;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-size: 1.2rem;
+}
+
+.navbar__li{
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.navbar__li--cat{
+    color: #f0f0f0;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar--carrito{
+    padding-right: 10px;
+    font-size: 35px;
+    cursor: pointer;
+    position: relative;
+}
+
+.navbar--cant{
+    color: rgb(13, 207, 23);
+    font-size: 1.5rem;
+    position: absolute;
+    top: -.8rem;
+    right: .3rem;
+}

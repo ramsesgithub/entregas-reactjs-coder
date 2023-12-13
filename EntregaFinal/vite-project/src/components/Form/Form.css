@@ -1,0 +1,32 @@
+.form{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .8rem 0;
+}
+
+.form__div{
+    display: flex;
+    gap: 0 0.5rem;
+    align-items: center;
+}
+
+.form__div--input{
+    outline: none;
+    border: black 1px solid;
+    border-radius: .4rem;
+    width: 200px;
+    height: 25px;
+}
+
+
+.form--btn{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: rgb(60, 236, 60);
+    padding: .7rem 6rem;
+    border: none;
+    border-radius: .5rem;
+}

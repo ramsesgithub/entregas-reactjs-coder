@@ -1,0 +1,54 @@
+.p{
+    text-align: center;
+    margin-top: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    color: rgba(73, 207, 19, 0.733);
+    font-size: 1.3rem;
+}
+
+.cart{
+    padding: 5rem 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cart-container{
+    display: flex;
+    flex-direction: column;
+    gap: .4rem 0
+}
+
+.cart-container p{
+    font-size: 1.3rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cart-container--img{
+    width: 200px;
+}
+
+.cart-container--btn{
+    border-radius: .8rem;
+    border: none;
+    padding: 0.4rem 2rem;
+    color: rgb(255, 255, 255);
+    background-color: tomato;
+    cursor: pointer;
+}
+
+.order{
+    display: flex;
+    justify-content: end;
+    margin: 1rem 2rem;
+}
+
+.order--btn{
+    cursor: pointer;
+    padding: .4rem 2rem;
+    border-radius: .5rem;
+    border: none;
+    background-color: chartreuse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+}
